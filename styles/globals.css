@@ -23,7 +23,7 @@ a {
 /* //////////// Header */
 
 #faqmain ,#indexmain{
-  background-color: #FFF7F5;
+  background-color: #e0c7c2;
 }
 
 
@@ -263,9 +263,10 @@ nav a:hover {
 
 /* ///////////// FAQ ///////////  */  
 
-#yes{
+#yes article{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+
 }
 
 #Faq1div ul{
@@ -281,10 +282,12 @@ nav a:hover {
 #our{
   font-size: 50px;
   font-family: 'DM Serif Display', serif;
+ 
 }
 
 #yes{
   padding-left: 15%;
+  width: 100%;
 }
 
 #yes ul{
@@ -298,18 +301,37 @@ nav a:hover {
   padding-bottom: 10%;
 }
 .isak{
-  padding-top: 16%;
+  padding-top: 10%;
 }
+.isak::before{
+  content: url(../public/Isakbild.jpg);
+}
+
+.simon{
+  padding-top: 9%;
+}
+
+.simon::before{
+  content: url(../public/simonblid.jpg);
+}
+
 
 .isak2{
-  padding-top: 30%;
+  padding-top: 25%;
 }
 
-#faqdivs ,#faqdivs2 {
-  background: white;
-  margin-left: 15%;
-  width: 95%;
+.isak2::before{
+  content: url(../public/isak2.jpg);
 }
-#faqdivs3{
-      width: 60%;
+
+#faqdivs1 ,#faqdivs2, #faqdivs3  {
+  padding: 2%;
+  background: white;
+  margin-left: 50%;
+  width: 98%;
+  font-size: 14px;
+  box-shadow: 0px 20px 40px rgba(238, 77, 71, 0.1);
+}
+#faqdivs{
+      width: 20%;
 }
