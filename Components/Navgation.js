@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Navigation = () => {
     return (
-
+        <main>
      <section className="header">
         <div className="HeaderNAv">
                  <h1>TRAVIKO</h1>
@@ -36,9 +36,14 @@ const Navigation = () => {
                 <li className="getStarted"><a href="#"> Get Startde</a></li>
             </ul>
         </div>
-
+           
         {/* <img src=".../public/Group 35.png" alt=""/> */}
         </section>
+        <div className="LKW"></div>
+        <section>
+
+        </section>
+        </main>
     );
 }
 

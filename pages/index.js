@@ -8,7 +8,7 @@ const Home =() => {
   return (
     <Layout>
 
-      <main>
+      <main id="indexmain">
       <section className="AboutUs">
             <div>
               <ul>
