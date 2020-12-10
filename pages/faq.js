@@ -1,9 +1,10 @@
-import Headline from '../Components/Headline'
+import Questions from '../pages/questions'
 import Layout from '../Components/Layout';
 
 const FAQ = () => {
     return (
         <Layout>
+            <Questions />
            <main id="faqmain">
                <section id="AboutUsFaq">
                    <div id="Faq1div"> 
