@@ -14,6 +14,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #e7c3c1;
 }
 
 a {
@@ -336,8 +337,16 @@ nav a:hover {
       width: 20%;
 }
 
-
+#faqqmain{
+  height: 200vh;
+}
 .QusText{
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  height: 100vh;
 }
+
+.group14{
+  background: url(../public/Group\ 14.png) center 80% no-repeat;
+}
+

@@ -4,7 +4,7 @@ import Layout from "../Components/Layout";
 const Questions = () => {
     return (
        
-            <main>
+            <main id="faqqmain"> 
                 <section className="QusText">
                     <div className="FAQQ">
                         <ul>
